@@ -55,6 +55,8 @@ extension ViewController: LTSelectionViewDelegate {
         print("did selected \(selectionOptions[index])")
     }
 
-    
+    func rowHeightForSelectionCells(selectionView: LTSelectionView) -> CGFloat {
+        return 40
+    }
 }
 

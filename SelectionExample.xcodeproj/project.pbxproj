@@ -14,8 +14,8 @@
 		C8D1A1D51CBB8D5900CAA743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D1A1D31CBB8D5900CAA743 /* LaunchScreen.storyboard */; };
 		C8D1A1E01CBB8D5900CAA743 /* SelectionExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D1A1DF1CBB8D5900CAA743 /* SelectionExampleTests.swift */; };
 		C8D1A1EB1CBB8D5900CAA743 /* SelectionExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D1A1EA1CBB8D5900CAA743 /* SelectionExampleUITests.swift */; };
-		C8D1A1FC1CBB8F0600CAA743 /* LTSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D1A1FB1CBB8F0600CAA743 /* LTSelectionView.swift */; };
-		C8D1A1FE1CBBA5FB00CAA743 /* LTSelectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D1A1FD1CBBA5FB00CAA743 /* LTSelectionViewCell.swift */; };
+		C8D1A2021CBCC29A00CAA743 /* LTSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D1A2001CBCC29A00CAA743 /* LTSelectionView.swift */; };
+		C8D1A2031CBCC29A00CAA743 /* LTSelectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D1A2011CBCC29A00CAA743 /* LTSelectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		C8D1A1E61CBB8D5900CAA743 /* SelectionExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectionExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8D1A1EA1CBB8D5900CAA743 /* SelectionExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionExampleUITests.swift; sourceTree = "<group>"; };
 		C8D1A1EC1CBB8D5900CAA743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8D1A1FB1CBB8F0600CAA743 /* LTSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTSelectionView.swift; sourceTree = "<group>"; };
-		C8D1A1FD1CBBA5FB00CAA743 /* LTSelectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTSelectionViewCell.swift; sourceTree = "<group>"; };
+		C8D1A2001CBCC29A00CAA743 /* LTSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTSelectionView.swift; sourceTree = "<group>"; };
+		C8D1A2011CBCC29A00CAA743 /* LTSelectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTSelectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		C8D1A1C91CBB8D5900CAA743 /* SelectionExample */ = {
 			isa = PBXGroup;
 			children = (
-				C8D1A1F81CBB8E4700CAA743 /* LTSelectionView */,
+				C8D1A1FF1CBCC29A00CAA743 /* SelectionView */,
 				C8D1A1CA1CBB8D5900CAA743 /* AppDelegate.swift */,
 				C8D1A1CC1CBB8D5900CAA743 /* ViewController.swift */,
 				C8D1A1CE1CBB8D5900CAA743 /* Main.storyboard */,
@@ -130,13 +130,13 @@
 			path = SelectionExampleUITests;
 			sourceTree = "<group>";
 		};
-		C8D1A1F81CBB8E4700CAA743 /* LTSelectionView */ = {
+		C8D1A1FF1CBCC29A00CAA743 /* SelectionView */ = {
 			isa = PBXGroup;
 			children = (
-				C8D1A1FB1CBB8F0600CAA743 /* LTSelectionView.swift */,
-				C8D1A1FD1CBBA5FB00CAA743 /* LTSelectionViewCell.swift */,
+				C8D1A2001CBCC29A00CAA743 /* LTSelectionView.swift */,
+				C8D1A2011CBCC29A00CAA743 /* LTSelectionViewCell.swift */,
 			);
-			name = LTSelectionView;
+			path = SelectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8D1A1FC1CBB8F0600CAA743 /* LTSelectionView.swift in Sources */,
-				C8D1A1FE1CBBA5FB00CAA743 /* LTSelectionViewCell.swift in Sources */,
+				C8D1A2021CBCC29A00CAA743 /* LTSelectionView.swift in Sources */,
+				C8D1A2031CBCC29A00CAA743 /* LTSelectionViewCell.swift in Sources */,
 				C8D1A1CD1CBB8D5900CAA743 /* ViewController.swift in Sources */,
 				C8D1A1CB1CBB8D5900CAA743 /* AppDelegate.swift in Sources */,
 			);
